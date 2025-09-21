@@ -13,7 +13,6 @@ namespace C3natraStore.Domain.Entities
         public Product Product { get; set; }
 
         public Size Size { get; set; }
-        public string Color { get; set; }
         public int StockQuantity { get; set; }
         public decimal Price { get; set; }
     }
