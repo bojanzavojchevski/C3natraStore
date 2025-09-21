@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\C3natraStore.Domain\C3natraStore.Domain.csproj" />
+    <ProjectReference Include="..\C3natraStore.Repository\C3natraStore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
